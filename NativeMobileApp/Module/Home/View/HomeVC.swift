@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HomeVC.swift
 //  NativeMobileApp
 //
 //  Created by Issac on 12/06/22.
@@ -7,13 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeVC: BaseVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        setupCurvedNavBar(title: "Home", back: backToPreviousVC)
     }
 
-
 }
-
